@@ -1,23 +1,16 @@
 export const educationData = [
-    {
-        id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
-    },
-    {
-        id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
-    },
-    {
-        id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
-    },
-]
+  {
+    id: 1,
+    institution: "National University of Singapore",
+    course: "Master of Computing (Computer Science Specialisation)",
+    startYear: "2014",
+    endYear: "2015",
+  },
+  {
+    id: 2,
+    institution: "National University of Singapore",
+    course: "Bachelor of Computing (Computer Science)",
+    startYear: "2010",
+    endYear: "2014",
+  },
+];

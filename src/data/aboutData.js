@@ -1,6 +1,8 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
-    image: 2
-}
+  title: "About Me",
+  description1:
+    "My name's Cesar Valencia. I'm a Senior Software Engineer based in Kent, WA.",
+  description2:
+    "Senior Software Engineer with 10 years of diverse experience across AI, E-commerce, Blockchain, Healthcare, Real Estate, Retail, Education, and Entertainment. Proficient in front-end technologies including React, Next.js, Vue, and Nuxt, as well as back-end frameworks like Node.js, Express.js, Nest.js, Django, and FastAPI. Strong expertise in JavaScript, TypeScript, Python, and Go, with a solid foundation in cloud services (AWS, GCP) and Test-Driven Development (TDD) using Jest, Cypress, and Playwright. Passionate about working in startups, embracing multiple roles, fostering collaboration, and delivering high-quality code quickly while adapting to new technologies.",
+  image: 1,
+};
