@@ -27,7 +27,7 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
       <div key={id} className={`education-card ${classes.educationCard}`}>
         <div className="educard-img" style={{ backgroundColor: theme.primary }}>
           {/* <img src={theme.type === 'light' ? eduImgBlack : eduImgWhite} alt="" /> */}
-          <img src="/nus.png" alt="" />
+          <img src="/nus.png" className="w-10 h-10" alt="" />
         </div>
         <div className="education-details">
           <h6 style={{ color: theme.primary }}>
