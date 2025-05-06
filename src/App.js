@@ -5,6 +5,7 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 import { Main, BlogPage, ProjectPage } from "./pages";
 import { BackToTop } from "./components";
@@ -14,18 +15,21 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app">
-      <Router>
-        <ScrollToTop />
-        <Switch>
-          <Route path="/" exact component={Main} />
-          <Route path="/projects" exact component={ProjectPage} />
+    <>
+      <Analytics />
+      <div className="app">
+        <Router>
+          <ScrollToTop />
+          <Switch>
+            <Route path="/" exact component={Main} />
+            <Route path="/projects" exact component={ProjectPage} />
 
-          <Redirect to="/" />
-        </Switch>
-      </Router>
-      <BackToTop />
-    </div>
+            <Redirect to="/" />
+          </Switch>
+        </Router>
+        <BackToTop />
+      </div>
+    </>
   );
 }
 
