@@ -15,21 +15,19 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <Analytics />
-      <div className="app">
-        <Router>
-          <ScrollToTop />
-          <Switch>
-            <Route path="/" exact component={Main} />
-            <Route path="/projects" exact component={ProjectPage} />
+    <div className="app">
+      <Router>
+        <ScrollToTop />
+        <Switch>
+          <Route path="/" exact component={Main} />
+          <Route path="/projects" exact component={ProjectPage} />
 
-            <Redirect to="/" />
-          </Switch>
-        </Router>
-        <BackToTop />
-      </div>
-    </>
+          <Redirect to="/" />
+        </Switch>
+      </Router>
+      <BackToTop />
+      <Analytics />
+    </div>
   );
 }
 
