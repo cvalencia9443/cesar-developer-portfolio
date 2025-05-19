@@ -1,11 +1,11 @@
 export const experienceData = [
   {
     id: 1,
-    company: "Diffco",
+    company: "BigRio",
     jobtitle: "Senior Software Engineer (Lead)",
     startYear: "04/2022",
     endYear: "Present",
-    image: "/diffco.png",
+    image: "/bigrio.jpg",
   },
   {
     id: 2,
